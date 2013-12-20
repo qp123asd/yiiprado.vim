@@ -3,10 +3,21 @@ Yii-Prado-Syntax
 
 Install
 -------
-
-    # cd /path/to/your/.vimrc/bundle
-    # git clone https://github.com/rairo/mkdview.vim.git
-
+```shell
+cd /path/to/your/.vimrc/bundle
+git clone https://github.com/WeiRongXu/yiiprado.vim.git
+```
 Or
+```viml
+:bundle 'WeiRongXu/yiiprado.vim'
+```
 
-    :bundle 'rairo/mkdview.vim'
+Usage
+-----
+
+If your templete file extension is tpl.
+
+Configuration follows
+```viml
+autocmd BufNewFile,BufRead *.tpl setfiletype htmlyiiprado
+```
