@@ -19,5 +19,5 @@ If your templete file extension is tpl.
 
 Configuration follows
 ```viml
-autocmd BufNewFile,BufRead *.tpl setfiletype htmlyiiprado
+autocmd BufNewFile,BufRead *.tpl setfiletype htmlyiiprado.html
 ```
