@@ -24,3 +24,7 @@ runtime! after/syntax/html.vim
 runtime! after/syntax/html/*.vim
 
 syn region yiiPrado matchgroup=Delimiter start="<%=\?" end="%>" contains=@phpClTop
+
+syn keyword htmlTagName contained com cache clip
+
+syn region htmlComment start=+<!---+ end=+---\s*>+ contains=@Spell
