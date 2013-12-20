@@ -23,7 +23,4 @@ runtime! syntax/html/*.vim
 runtime! after/syntax/html.vim
 runtime! after/syntax/html/*.vim
 
-syn region yiiPrado matchgroup=pradoExpression start=/<%=/ end=/%>/ contains=@phpClTop
-syn region yiiPrado matchgroup=pradoStatement start=/<%/ end=/%>/ contains=@phpClTop
-
-hi def link pradoStatement	Comment
+syn region yiiPrado matchgroup=Delimiter start="<%=\?" end="%>" contains=@phpClTop
