@@ -2,7 +2,7 @@
 " Language: Html + Prado templete
 " Maintainer: WeiRong Xu <weirongxuraidou@gmail.com>
 " Last Change: 2013-12-20
-" Version: 0.01
+" Version: 0.02
 
 runtime! syntax/php.vim
 runtime! syntax/php/*.vim
@@ -14,7 +14,9 @@ runtime! syntax/html/*.vim
 runtime! after/syntax/html.vim
 runtime! after/syntax/html/*.vim
 
-syn region yiiPrado matchgroup=Delimiter start="<%=\?" end="%>" contains=@phpClTop
+let php_asp_tags = 1
+
+" syn region yiiPrado matchgroup=Delimiter start="<%=\?" end="%>" contains=@phpClTop,@phpClFunction,@phpClInside,@phpClConst
 
 syn keyword htmlTagName contained com cache clip
 

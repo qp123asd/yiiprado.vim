@@ -1,6 +1,7 @@
 <!---
 view comments that will be stripped off
 --->
+<!--- view comments that will be stripped off --->
 <!-- <test></test> -->
 
 <div class="pages">
@@ -46,6 +47,9 @@ view comments that will be stripped off
 <div>
     <%= CHtml::textField(1name,'value'); %>
 </div>
+
+<em><%= date('Y 年 n 月 j 日'); %></em>
+
 <% foreach($models as $model): %>
 
 <com:WidgetClass property1=value1 property2=value2 ...>
