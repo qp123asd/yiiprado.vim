@@ -4,6 +4,8 @@
 " Last Change: 2013-12-20
 " Version: 0.02
 
+syntax clear
+
 runtime! syntax/php.vim
 runtime! syntax/php/*.vim
 runtime! after/syntax/php.vim
