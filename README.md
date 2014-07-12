@@ -9,7 +9,7 @@ git clone https://github.com/weirongxu/yiiprado.vim.git
 ```
 Or
 ```viml
-:bundle 'weirongxu/yiiprado.vim'
+Bundle 'weirongxu/yiiprado.vim'
 ```
 
 Usage
